@@ -61,7 +61,7 @@ export const projectsData = [
     {
       title: "Vista Verde",
       price: "$2,50,000",
-      location: "San Francisco",
+      location: "San",
       image: project_img_5
     },
     {
