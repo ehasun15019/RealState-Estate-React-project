@@ -27,15 +27,15 @@ const Navbar = () => {
             Home
           </a>
 
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a href="#About" className="cursor-pointer hover:text-gray-400">
             About
           </a>
 
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a href="#Projects" className="cursor-pointer hover:text-gray-400">
             Projects
           </a>
 
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a href="#Testimonial" className="cursor-pointer hover:text-gray-400">
             Testimonial
           </a>
         </ul>
@@ -66,20 +66,35 @@ const Navbar = () => {
             onClick={() => setShowMobileMenu(false)}
           />
         </div>
+
+        {/* mobile menu start */}
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
-          <a href="#Header" className="px-4 py-2 rounded-full inline-block">
+          <a
+            onClick={() => setShowMobileMenu(false)}
+            href="#Header"
+            className="px-4 py-2 rounded-full inline-block"
+          >
             Home
           </a>
 
-          <a href="#About" className="px-4 py-2 rounded-full inline-block">
+          <a
+            onClick={() => setShowMobileMenu(false)}
+            href="#About"
+            className="px-4 py-2 rounded-full inline-block"
+          >
             About
           </a>
 
-          <a href="#Projects" className="px-4 py-2 rounded-full inline-block">
+          <a
+            onClick={() => setShowMobileMenu(false)}
+            href="#Projects"
+            className="px-4 py-2 rounded-full inline-block"
+          >
             Projects
           </a>
 
           <a
+            onClick={() => setShowMobileMenu(false)}
             href="#Testimonial"
             className="px-4 py-2 rounded-full inline-block"
           >
