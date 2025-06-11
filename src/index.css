@@ -4,3 +4,17 @@
 * {
   font-family: "Outfit", sans-serif;
 }
+
+/* Testimonial.jsx start */
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .testimonial-container {
+    flex-wrap: wrap;
+  }
+}
+/* Testimonial.jsx end */
